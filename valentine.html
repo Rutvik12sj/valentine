@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Forever Yours ❤️</title>
+<style>
+body {
+  margin: 0;
+  height: 100vh;
+  background: linear-gradient(to bottom right, #ff758c, #ff7eb3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Georgia', serif;
+  color: white;
+  text-align: center;
+}
+.card {
+  background: rgba(255,255,255,0.15);
+  padding: 40px;
+  border-radius: 20px;
+  max-width: 500px;
+  box-shadow: 0 20px 40px rgba(0,0,0,0.2);
+}
+h1 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+p {
+  font-size: 18px;
+  line-height: 1.6;
+}
+button {
+  margin-top: 25px;
+  padding: 12px 30px;
+  border: none;
+  border-radius: 25px;
+  background: white;
+  color: #ff4f81;
+  font-size: 16px;
+  cursor: pointer;
+}
+button:hover {
+  transform: scale(1.05);
+}
+#surprise {
+  display: none;
+  margin-top: 20px;
+  font-size: 20px;
+}
+</style>
+</head>
+<body>
+  <div class="card">
+    <h1>Forever Yours ❤️</h1>
+    <p>
+      From the moment you came into my life, everything changed in the most beautiful way.<br><br>
+      You are my calm, my strength, my happiness, and my home.<br><br>
+      This Valentine’s Day, I just want you to know—  
+      I choose you. Always.
+    </p>
+    <button onclick="showLove()">Tap for a Surprise 💝</button>
+    <div id="surprise">I love you more than words can ever say 💖</div>
+  </div>
+
+<script>
+function showLove() {
+  document.getElementById("surprise").style.display = "block";
+}
+</script>
+</body>
+</html>
